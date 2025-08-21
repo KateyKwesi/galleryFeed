@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #242223;
+}
+
+h1{
+    color: wheat;
+    text-align: center;
+}
+
+.gallery{
+    columns: 290px;
+    margin: auto;
+    width: 80%;
+  
+}
+
+img{
+    margin: 0.5rem;
+    object-fit: cover;
+    
+   
+}
+.lightbox {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #000000cc;
+    top: 0;
+    left: 0;
+    display: none;
+   align-items: center;
+
+}
+
+#lightbox-image{
+    max-width: 90%;
+    max-height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#close-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background-color: wheat;
+    color: red;
+}
